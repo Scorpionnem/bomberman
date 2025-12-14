@@ -6,7 +6,7 @@
 /*   By: mbatty <mbatty@student.42angouleme.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 14:11:46 by mbatty            #+#    #+#             */
-/*   Updated: 2025/10/04 18:36:53 by mbatty           ###   ########.fr       */
+/*   Updated: 2025/12/14 17:13:00 by mbatty           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ class TitleScene : public Scene
 		void onExit();
 
 	private:
-		double		_lastSplashTextUpdate = 0;
 		Panel		_panel;
 };
 
