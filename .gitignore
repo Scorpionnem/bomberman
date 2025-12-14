@@ -1,0 +1,6 @@
+bomberman
+obj/
+*.o
+*.d
+external/
+.vscode/
